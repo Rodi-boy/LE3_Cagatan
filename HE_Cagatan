@@ -37,7 +37,7 @@ int main() {
                 if (amount <= 0) {
                     printf("Invalid amount!\n");
                 } else if (amount > balance - 100) {
-                    printf("Withdrawal denied! You must maintain at least ₱100.00 in your account.\n");
+                    printf("Withdrawal denied! You must maintain at least P100.00 in your account.\n");
                 } else {
                     balance -= amount;
                     printf("Withdrawal successful!\n");
